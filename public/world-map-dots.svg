@@ -1,0 +1,69 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- World Map Continents (Simplified) -->
+  <path d="M130,120 L170,120 L190,140 L210,130 L250,170 L270,150 L310,170 L320,150 L350,170 L370,150 L390,180 L400,160 L410,190 L350,230 L330,220 L320,240 L280,240 L260,220 L230,240 L200,210 L180,220 L150,200 L120,210 L110,190 L90,180 L110,160 L100,140 L130,120" 
+    fill="currentColor" fill-opacity="0.1" />
+  <!-- North America -->
+
+  <path d="M440,130 L490,110 L550,150 L580,140 L620,160 L650,150 L680,170 L690,190 L670,230 L650,250 L620,260 L610,280 L590,250 L560,270 L540,250 L510,260 L480,240 L460,250 L450,230 L430,220 L460,190 L440,170 L450,140 L440,130" 
+    fill="currentColor" fill-opacity="0.1" />
+  <!-- Europe and Asia -->
+
+  <path d="M200,260 L230,250 L250,270 L280,260 L320,280 L310,310 L280,330 L250,320 L230,330 L200,310 L210,290 L190,280 L200,260" 
+    fill="currentColor" fill-opacity="0.1" />
+  <!-- South America -->
+
+  <path d="M470,280 L510,270 L540,290 L530,320 L490,340 L460,330 L450,300 L470,280" 
+    fill="currentColor" fill-opacity="0.1" />
+  <!-- Africa -->
+
+  <path d="M660,290 L680,280 L700,300 L720,290 L730,320 L700,340 L670,320 L660,290" 
+    fill="currentColor" fill-opacity="0.1" />
+  <!-- Australia -->
+
+  <!-- Major Shipping Hubs (Dots) -->
+  <!-- North America -->
+  <circle cx="130" cy="150" r="5" fill="currentColor" opacity="0.8" /> <!-- Los Angeles -->
+  <circle cx="180" cy="140" r="5" fill="currentColor" opacity="0.8" /> <!-- New York -->
+  <circle cx="150" cy="180" r="4" fill="currentColor" opacity="0.7" /> <!-- Miami -->
+  <circle cx="110" cy="170" r="4" fill="currentColor" opacity="0.7" /> <!-- Vancouver -->
+
+  <!-- South America -->
+  <circle cx="220" cy="280" r="4" fill="currentColor" opacity="0.7" /> <!-- Santos, Brazil -->
+  <circle cx="200" cy="300" r="3" fill="currentColor" opacity="0.6" /> <!-- Valparaiso, Chile -->
+
+  <!-- Europe -->
+  <circle cx="450" cy="150" r="5" fill="currentColor" opacity="0.8" /> <!-- Rotterdam -->
+  <circle cx="460" cy="170" r="4" fill="currentColor" opacity="0.7" /> <!-- Hamburg -->
+  <circle cx="480" cy="160" r="4" fill="currentColor" opacity="0.7" /> <!-- Antwerp -->
+  <circle cx="430" cy="170" r="3" fill="currentColor" opacity="0.6" /> <!-- London -->
+  <circle cx="490" cy="190" r="3" fill="currentColor" opacity="0.6" /> <!-- Barcelona -->
+
+  <!-- Asia -->
+  <circle cx="650" cy="170" r="5" fill="currentColor" opacity="0.8" /> <!-- Shanghai -->
+  <circle cx="630" cy="190" r="5" fill="currentColor" opacity="0.8" /> <!-- Singapore -->
+  <circle cx="620" cy="170" r="4" fill="currentColor" opacity="0.7" /> <!-- Hong Kong -->
+  <circle cx="590" cy="160" r="4" fill="currentColor" opacity="0.7" /> <!-- Dubai -->
+  <circle cx="660" cy="150" r="3" fill="currentColor" opacity="0.6" /> <!-- Tokyo -->
+  <circle cx="610" cy="210" r="3" fill="currentColor" opacity="0.6" /> <!-- Mumbai -->
+
+  <!-- Africa -->
+  <circle cx="490" cy="290" r="4" fill="currentColor" opacity="0.7" /> <!-- Durban -->
+  <circle cx="460" cy="260" r="3" fill="currentColor" opacity="0.6" /> <!-- Tangier -->
+  <circle cx="500" cy="260" r="3" fill="currentColor" opacity="0.6" /> <!-- Port Said -->
+
+  <!-- Australia -->
+  <circle cx="690" cy="310" r="4" fill="currentColor" opacity="0.7" /> <!-- Sydney -->
+  <circle cx="680" cy="290" r="3" fill="currentColor" opacity="0.6" /> <!-- Melbourne -->
+
+  <!-- Connection Lines (Optional) -->
+  <g stroke="currentColor" stroke-width="0.5" stroke-opacity="0.3">
+    <!-- Major shipping routes -->
+    <path d="M130,150 C200,220, 350,240, 450,150" /> <!-- North America to Europe -->
+    <path d="M450,150 C520,180, 580,190, 650,170" /> <!-- Europe to Asia -->
+    <path d="M650,170 C600,260, 500,340, 430,170" /> <!-- Asia to Europe (Suez) -->
+    <path d="M130,150 C300,250, 500,280, 650,170" /> <!-- North America to Asia (Pacific) -->
+    <path d="M220,280 C330,220, 400,190, 450,150" /> <!-- South America to Europe -->
+    <path d="M220,280 C400,330, 600,300, 690,310" /> <!-- South America to Australia -->
+    <path d="M450,150 C460,220, 470,250, 490,290" /> <!-- Europe to Africa -->
+  </g>
+</svg>
